@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #01204E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 60vw;
+    border-radius: 20px;
+    height: 80vh;
+    background: linear-gradient(to top, #040f2f, #597db5);
+    color: #fff;
+    padding: 10px 20px ;
+    /* box-shadow: 0 0px 20px rgb(0, 0, 0, 0.6); */
+    /* text-align: center; */
+}
+
+.imgWeather{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.topCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topCont h3{
+    margin-right: 50px;
+    font-size: 100px;
+}
+
+.weatherState{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 5px;
+    cursor: pointer;
+}
+
+.degree{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center; 
+    padding: 0px 50px;
+    margin-top: 10px;
+}
+
+.userLocation{
+    padding: 10px 50px;
+}
+
+.userLocation input{
+    padding: 4px 15px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.userLocation button{
+        padding: 4px 15px;
+        background-color: #111;
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid transparent;
+        cursor: pointer;
+}
+
+.dailyForecast{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+    background: linear-gradient(to top, #040f2f, #597db5);
+    border-radius: 10px;
+}
+
+.box{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.box img{
+    margin: 5px 0px;
+}
+
+.imgIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
